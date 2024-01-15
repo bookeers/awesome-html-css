@@ -13,6 +13,7 @@
       }
     </style>
   </head>
+  <main>
     <h1>안녕하세요! 허상진입니다.</h1>
     <h2>
       <img
@@ -32,21 +33,33 @@
       type="text"
       name="username"
       maxlength="20"
-      placeholder="이름을 알려주세요!"/>
+      placeholder="이름을 알려주세요!"
+    />
     <br />
     <section></section>
-    자습 날짜를 알려주세요! <div></div>
-    <input 
-    type="date" 
-    placeholder="날짜를 알려주세요!"
-    id="start" name="trip-start" 
-    value="2024-01-15" min="2024-01-01" max="2024-12-31"
+    자습 날짜를 알려주세요!
+    <div></div>
+    <input
+      type="date"
+      placeholder="날짜를 알려주세요!"
+      id="start"
+      name="trip-start"
+      value="2024-01-15"
+      min="2024-01-01"
+      max="2024-12-31"
     />
 
-<section>
-    이메일도 입력해주시겠어요? <br/> <div></div>
-    <input type="email" id="email" pattern="(.+@.+.com)|(.+@.+.kr)" size="30" required />
-</section>
+    <section>
+      이메일도 입력해주시겠어요? (유효성 체크가 있습니다) <br />
+      <div></div>
+      <input
+        type="email"
+        id="email"
+        pattern="(.+@.+.com)|(.+@.+.kr)"
+        size="30"
+        required
+      />
+    </section>
 
     <section>
       <label for="ck"> 열심히 공부해주실 분만 클릭!</label>
