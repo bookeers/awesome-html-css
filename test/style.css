@@ -34,7 +34,7 @@ header {
   display: flex;
   max-width: 1366px;
   height: 662px;
-  padding: 100px 120px;
+  padding: 0px 120px;
   gap: 10px;
 }
 
@@ -282,15 +282,6 @@ header h1 em {
   align-items: flex-start;
   gap: 80px;
 }
-
-/* Frame 9 */
-.frame-11 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
-}
-
 .stackimg{
 width: 120px;
 height: 120px;
