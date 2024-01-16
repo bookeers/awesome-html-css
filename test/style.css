@@ -5,7 +5,8 @@
   font-weight: 700;
   font-style: normal;
 }
-
+body {
+}
 nav {
   /* 레이아웃에 대한 스타일(5~10줄) */
   display: flex;
@@ -163,7 +164,6 @@ header h1 em {
   font-weight: 700;
   line-height: 125%; /* 50px */
   letter-spacing: -0.8px;
-
 }
 
 .frame7 em {
@@ -193,16 +193,106 @@ header h1 em {
   position: relative;
 }
 
-.contact{
-width: 130px;
-padding: 10px;
-flex-shrink: 0;
-border-radius: 50px;
-border: 10px solid #BBD5F7;
-background: linear-gradient(98deg, #BED3FF -10.83%, #D2F3E5 51.79%, #FFEBD9 110.76%);
-position: fixed;
-right: 20px;
-bottom:20px;
-text-align: center;
-font-size: 24px;
+.contact {
+  width: 130px;
+  padding: 20px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 10px solid #bbd5f7;
+  background: linear-gradient(
+    98deg,
+    #bed3ff -10.83%,
+    #d2f3e5 51.79%,
+    #ffebd9 110.76%
+  );
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.stack {
+  display: flex;
+  width: 1366px;
+  height: 666px;
+  padding: 100px 120px;
+  gap: 10px;
+  color: #333;
+
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  white-space: pre-line;
+}
+
+.frame9 em {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 65% */
+  letter-spacing: -0.8px;
+}
+/* Group 8 */
+.group8 {
+  display: flex;
+  width: 1120px;
+  height: 473px;
+  flex-shrink: 0;
+}
+
+/* Frame 81 */
+.frame81 {
+  display: flex;
+  width: 1120px;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* Frame 9 */
+.frame9 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.typing {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+/* Frame 9 */
+.frame10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+/* Frame 9 */
+.frame-11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.stackimg{
+width: 120px;
+height: 120px;
+
 }
