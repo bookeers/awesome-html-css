@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Cafe24Supermagic-Bold-v1.0";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+nav {
+  /* 레이아웃에 대한 스타일(5~10줄) */
+  display: flex;
+  width: 1366px;
+  padding-left: 120px;
+  gap: 40px;
+  
+}
+
+.navItem {
+display: flex;
+height: 100px;
+align-items: center;
+}
+
+header{
+  display: flex;
+  width: 1366px;
+  height: 662px;
+  padding: 100px 120px;
+  gap: 10px;
+  }
+  
+.group9 
+{
+  display:flex;
+width: 1120px;
+height: 464px;
+gap: 40px;
+flex-shrink: 0;
+}
+
+.frame65{
+  display: flex;
+  height: 464px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  }
+
+.badge {
+  /* display: flex; */
+  padding: 12px 24px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 10px; 
+  border-radius: 10px;
+  background: #e6eeff;
+  width: fit-content;
+
+  /* 텍스트 속성 */
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+header h1 {
+  /*margin-left: 120px;*/
+  color: #333;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 80px */
+  letter-spacing: -1.28px;
+}
+
+header h1 em {
+  background: linear-gradient(
+    99deg,
+    #001f8f 3.58%,
+    rgba(36, 255, 203, 0.5) 90.34%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headerLinkContainer {
+  display: flex;
+  gap: 16px;
+  /*margin-left: 120px;*/
+  /* flex-direction: row; */
+}
+.button1 {
+  display: flex;
+  width: 250px; 
+  padding: 24px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background: #000;
+}
+.button2 {
+  display: flex;
+  width: 250px;
+  padding: 24px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  border: 4px solid #403930;
+}
+
+.masking{
+width: 355.624px;
+height: 350px;
+border-radius: 500px;
+border: 10px solid #BCF2F9;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
