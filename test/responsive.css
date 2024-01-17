@@ -103,6 +103,7 @@ header h1 em {
   align-items: flex-start;
   flex-shrink: 0;
   box-sizing: border-box;
+
 }
 .button1 {
   display: flex;
@@ -212,6 +213,7 @@ line-height: 150%; /* 21px */
   display: flex;
   padding: 60px 24px;
   gap: 32px;
+  justify-content: flex-start;  
 
   color: #333;
   font-family: Pretendard;
@@ -227,6 +229,7 @@ line-height: 150%; /* 21px */
     width: 100%;
     display: flex;
     flex-direction: column; 
+    justify-content: flex-start;
     color: #000;
     align-self: stretch; 
     /* sectionTitle */
@@ -290,17 +293,17 @@ line-height: 150%; /* 21px */
 
 /* Frame 9 */
 .frame10 {
-  width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 24px;
-  box-sizing: border-box;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
 }
 .stackimg {
-  width: 80px;
+  width: 79.5px;
   height: 80px;
-  gap: 8px;
   box-sizing: border-box;
 }
 
