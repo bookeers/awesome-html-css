@@ -376,6 +376,7 @@ header h1 em {
   align-items: center;
   justify-content: center;
   background-color: #ff6a89;
+  padding: 20px 0px;
 }
 
 .frame23 {
@@ -424,7 +425,7 @@ header h1 em {
 }
 
 .mask {
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -434,7 +435,7 @@ header h1 em {
 
 .rectangle16 {
   width: 603px;
-  height: 400px;
+  /* height: 400px; */
   flex-shrink: 0;
   border-radius: 24px;
   display: flex;
