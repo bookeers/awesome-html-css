@@ -15,7 +15,9 @@ nav {
   gap: 40px;
   font-size: 24px;
   font-weight: 700;
-
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .group45 {
