@@ -315,15 +315,16 @@ line-height: 150%; /* 21px */
 
 .project{
   display: flex;
+  height:auto;
   width: 100%;
   padding: 60px 0px;
   justify-content: center;
   align-items: center;
-  background: rgba(244, 244, 244, 0.50);
 }
 
 .projectframe{
   width:100%;
+  height:auto;
   display: flex;
 flex-direction: column;
 justify-content: center;
