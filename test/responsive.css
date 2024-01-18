@@ -311,7 +311,6 @@ line-height: 150%; /* 21px */
   display: none;
 }
 
-/* 여기부터 반응형처리 안되어있음 반응형처리해야함 */
 
 .project{
   display: flex;
@@ -407,6 +406,7 @@ text-decoration-line: underline;
 
   
 .mask{
+  justify-content: center;
   width:100%;
   }
   
